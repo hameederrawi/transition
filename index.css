@@ -37,3 +37,56 @@ a:hover {
     color: rgb(8, 8, 8);
 
 }
+
+.fun {
+    background-color: #000;
+    
+    height: 0;
+    width: 0;
+    margin: 25px;
+    animation-name: growing;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes growing {
+
+    from {
+        height: 0;
+        width: 0;
+    }
+        to {
+            height: 150px;
+            width: 150px;
+
+        }
+    }
+
+a {
+    background-color: rgb(255, 255, 255);
+    
+    font-size: 12px;
+    margin: 25px;
+    animation-name: tgrowing;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes tgrowing {
+
+    from {
+        font-size: 12px;
+    }
+        to {
+            font-size: 40px;
+
+        }
+    }
