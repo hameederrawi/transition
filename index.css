@@ -125,8 +125,8 @@ a {
     width: 100px;
     height: 100px;
     background-color: #e84610;
-    transition-duration: 3s;
-    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-timing-function:  ease-in;
     
     
       
