@@ -126,7 +126,7 @@ a {
     height: 100px;
     background-color: #e84610;
     transition-duration: 1s;
-    transition-timing-function:  ease-in;
+    transition-timing-function: ease-in;
     
     
       
@@ -156,4 +156,17 @@ a {
     
 }
 
+img {
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
  
