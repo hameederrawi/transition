@@ -119,3 +119,41 @@ a {
     top: 100px;
   }
 }     
+
+.sizebox {
+
+    width: 100px;
+    height: 100px;
+    background-color: #e84610;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    
+    
+      
+}
+.sizebox:hover {
+       
+        background-color: rgb(24, 194, 151);
+        width: 200px;
+        height: 200px;
+        
+       
+}
+
+.sizebox1 {
+
+    width: 50px;
+    height: 50px;
+    background-color: #d7ec13;
+    transition-duration: 3s;
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+.sizebox1:active {
+
+   transform: rotate(0deg);
+   transition:  0s;
+    
+}
+
+ 
